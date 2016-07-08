@@ -11,7 +11,7 @@ HEIGHT = 242
 GENERAL_DEEP = 50
 TRUNK_HEIGHT = 50
 
-WRAPPER_WOOD_WIDTH = 1
+WRAPPER_WOOD_WIDTH = 1.6
 INTERIOR_WOOD_WIDTH = 1.6
 
 LEFT_FRAME = 13
@@ -39,8 +39,8 @@ print("Tapas lateral abajo 2x: %s" % str((DEEP - MARGIN - WRAPPER_WOOD_WIDTH, al
 
 print("\n\nMELAMINA BLANCA 1 canto, 20mm:")
 print("---------------------------------\n")
-print("Tablero maletero: %s" % str((WIDTH - MARGIN, GENERAL_DEEP)))
-print("Separador vertical: %s" % str((GENERAL_DEEP, alto_abajo)))
-print("Baldas izquierda 2x: %s" % str((ancho_izquierda_abajo, GENERAL_DEEP)))
-print("Baldas derecha 1x: %s" % str((ancho_derecha_abajo, GENERAL_DEEP)))
+print("Tablero maletero: %s" % str((WIDTH - MARGIN, DEEP)))
+print("Separador vertical: %s" % str((DEEP, alto_abajo)))
+print("Baldas izquierda 2x: %s" % str((ancho_izquierda_abajo, DEEP)))
+print("Baldas derecha 1x: %s" % str((ancho_derecha_abajo, DEEP)))
 print("\n")
